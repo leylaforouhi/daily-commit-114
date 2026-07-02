@@ -1,4 +1,4 @@
-def find_divisors(number):
+def find_divisors(numbe):
     return [i for i in range(1, number + 1) if number % i == 0]
 
 if __name__ == "__main__":
